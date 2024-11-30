@@ -98,7 +98,7 @@ int main() {
             break;
         default:
             system("cls");
-            cout << "Command Not Found!" << endl;
+            cout << "Error!" << endl;
         }
 
         cout << endl;
