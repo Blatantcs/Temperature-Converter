@@ -27,7 +27,7 @@ double KelForFah(double kelvin) {
     return (kelvin - 273.15) * 9 / 5 + 32;
 }
 
-void ShowMenu() {
+void Sm() {
     cout << "\n=====================================" << endl;
     cout << "           THE CONVERSOR               " << endl;
     cout << "=====================================" << endl;
@@ -47,7 +47,7 @@ int main() {
     double t, r;
 
     do {
-        ShowMenu();
+        Sm();
         cin >> menu;
         switch (menu) {
         case 1:
